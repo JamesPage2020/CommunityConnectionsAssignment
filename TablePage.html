@@ -1,0 +1,107 @@
+<!doctype html>
+<!-- James Page -->
+<html lang = "en">
+<head>
+	<title>Mythical Beasts Tables</title>
+	<meta charset = "UTF-8">
+	<link rel ="stylesheet" type = "text/css" href = "./css/format_index.css" />
+	<script type = "text/javascript" src = "./JavaScript/clock.js"></script>
+</head>
+<body onload = "currentDate()">
+	<span class = "topic"> Mythical Creatures </span>
+
+	<div class = "navflexcontainer">
+		<div class = "navflexitem">
+			<a href = "index.html">Home Page</a>
+		</div>
+		<div class = "navflexitem">
+			<a href = "TablePage.html">Naming Origin Table</a>
+		</div>
+		<div class = "navflexitem">
+			<a href = "GalleryPage.html">Image gallery</a>
+		</div>
+		<div class = "navflexitem">
+			<a href = "Form.html">Form</a>
+		</div>
+		<div class = "navflexSpaceitem">
+			&nbsp;
+		</div>
+		<div class = "navflexitem">
+			<a href = "https://www.facebook.com/Mythical-Creatures-123731195695706/?modal=admin_todo_tour"><img src = "./imgs/Facebook.jpg" height="40" width="40" alt="facebook"/></a>
+		</div>
+		<div class = "navflexitem">
+			<a href = "https://twitter.com/MythicalCreat14"><img src = "./imgs/Twiter.jpg" height="40" width="40" alt="twitter"/></a>
+		</div>
+	</div>
+
+	<div class = "maincontainer">
+		<button onclick = "tableChange()">Click to change Table Colour</button>
+		
+		<table id = "changeTable">
+			<tr><th colspan = "5">Table of Naming Origin</th></tr>
+			<tr>
+				<th>Common Name</th>
+				<th>Popularisation</th>
+				<th>Origin of Name</th>
+				<th>Derived From</th>
+				<th>Meaning</th>
+			</tr>
+			
+			<!-- Chimera -->
+			<tr>
+				<td><a href = "ChimeraInfo.html"> Chimera</a></td>
+				<td>Greek Myths</td>
+				<td>Greek</td>
+				<td>Khimaira</td>
+				<td>She-goat</td>
+			</tr>
+			
+			<!-- Cockatrice -->		
+			<tr>
+				<td rowspan = "3"><a href = "CockatriceInfo.html">Cockatrice</a></td>
+				<td rowspan = "3">European Legions</td>
+				<td>Old French</td>
+				<td>Cocatris</td>
+				<td rowspan = "2">Trickster</td>
+			</tr>
+			<tr>
+				<td>Latin</td>
+				<td>Calcatrix</td>
+			</tr>
+			<tr>
+				<td>Greek</td>
+				<td>Ichneumon</td>
+				<td>Tracker</td>
+			</tr>
+			
+			<!-- Pegasus -->
+			<tr>
+				<td>Pegasus</td>
+				<td>Greek Mythology</td>
+				<td>Greek</td>
+				<td>Pégasos</td>
+				<td></td>
+			</tr>
+			
+			<!-- Unicorn -->		
+			<tr>
+				<td rowspan = "2"><a href = "UnicornInfo.html">Unicorn</a></td>
+				<td rowspan = "2">	European Legions</td>
+				<td>Latin</td>
+				<td>Unicornis</td>
+				<td rowspan = "2">Single-horn</td>
+			</tr>
+			<tr>
+				<td>Greek</td>
+				<td>Monokerōs</td>
+			</tr>
+			
+		</table>
+	</div>	
+
+	<div class = "footercontainer">
+		<p id = "showDate"></p>
+		<p>Date: Oct 28th, 2019. Contact: James Page @ <a href="mailto:james.page@student.sl.on.ca">james.page@student.sl.on.ca</a>.</p>
+	</div>
+</body>
+</html>
